@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $mensaje = $_POST['message'];
 
-    $para = "davic1987@gmail.com";
+    $para = "info@yirtc.com";
     $asunto = "Nuevo mensaje de contacto";
     $contenido = "Nombre: $nombre\nCorreo: $email\nMensaje:\n$mensaje";
     $cabeceras = "From: $email";
